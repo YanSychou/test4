@@ -8,9 +8,9 @@
   var firstLetter=names[i].charAt(0);
 
   if (firstLetter==='J' || firstLetter==='j') {
-     helloSpeaker.speak(names[i])
-  } else {
      byeSpeaker.speak(names[i])
+  } else {
+    helloSpeaker.speak(names[i]) 
   }
  }
 window.names=names;
